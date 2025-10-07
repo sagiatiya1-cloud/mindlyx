@@ -1,0 +1,19 @@
+
+:root{ --bg:#071024; --primary:#6D28D9; --accent:#A78BFA; --muted:#9CA3AF }
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{margin:0;font-family:Inter,system-ui,Arial,sans-serif;background:linear-gradient(180deg,#030316 0%,#071024 60%);color:#E6EEFF}
+.topbar{height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 20px;border-bottom:1px solid rgba(255,255,255,0.02);position:sticky;top:0;background:linear-gradient(90deg, rgba(255,255,255,0.02), transparent);z-index:10}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--primary);font-size:18px}
+.logo{width:40px;height:40px;border-radius:10px}
+.nav{display:flex;gap:8px;align-items:center}
+.navlink{color:inherit;margin-right:8px;text-decoration:none}
+.nav-actions{display:flex;align-items:center;gap:8px}
+.main{padding:28px;max-width:1000px;margin:12px auto}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:14px}
+input,textarea{width:100%;padding:12px;border-radius:10px;background:transparent;border:1px solid rgba(255,255,255,0.06);margin-top:8px}
+button{background:linear-gradient(90deg,var(--primary),var(--accent));color:white;border:0;padding:10px 14px;border-radius:10px;cursor:pointer}
+.bubble{max-width:78%;padding:12px 14px;border-radius:18px;line-height:1.4}
+.bubble.bot{background:linear-gradient(90deg,#111827,#0f1724);border:1px solid rgba(109,40,217,0.18);box-shadow:0 8px 24px rgba(13,8,47,0.6);color:#E6EEFF}
+.bubble.user{background:linear-gradient(90deg,#6D28D9,#A78BFA);color:white}
+@media (max-width:700px){ .main{padding:14px} .nav{display:none} }

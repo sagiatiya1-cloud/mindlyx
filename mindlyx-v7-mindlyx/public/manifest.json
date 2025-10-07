@@ -1,0 +1,8 @@
+{
+  "name": "Mindlyx v7",
+  "short_name": "Mindlyx",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071024",
+  "theme_color": "#6D28D9"
+}
